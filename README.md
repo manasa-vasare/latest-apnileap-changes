@@ -92,7 +92,7 @@ sequenceDiagram
 
 | Role | Default Login | Permissions & Capabilities |
 | :--- | :--- | :--- |
-| **Executive Administrator** | `admin@apnileap.com` | Global governance, spoke creation, institutional KPI oversight, cross-campus management. |
+| **Executive Administrator** | `executive@apnileap.com` | Global governance, spoke creation, institutional KPI oversight, cross-campus management. |
 | **Corporate Partner** | `sponsor@company1.com` | Submits B2B project proposals, reviews deliverables, tracks cross-campus ROI and milestone completion. |
 | **Campus Coordinator** | `kle@apnileap.com` | Reviews incoming project proposals for the campus, oversees mentor workloads, manages calendar syncs. |
 | **Faculty Mentor** | `mentor@kle.edu` | Forms teams, schedules team/project syncs, evaluates deliverables, triggers rework requests. |
@@ -296,7 +296,7 @@ SMTP_FROM_NAME="ApniLeap Hub"
 
 | Persona | Email | Password | Campus / Spoke |
 | :--- | :--- | :--- | :--- |
-| **Central Admin** | `admin@apnileap.com` | `admin123` | Central Hub |
+| **Executive Admin** | `executive@apnileap.com` | `executive123` | Central Hub |
 | **Corporate Sponsor** | `sponsor@company1.com` | `spoke123` | Corporate Partner |
 | **KLE Coordinator** | `kle@apnileap.com` | `spoke123` | KLE Tech (Spoke 3) |
 | **COEP Coordinator** | `coep@apnileap.com` | `spoke123` | COEP (Spoke 101) |
